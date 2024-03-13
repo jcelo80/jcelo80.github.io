@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="João Marcelo">
+    <meta name="description" content="Portfólio João Marcelo">
+    <meta name="keywords" content="front-end, portfolio, developer">
+
+    <link rel="shortcut icon" href="imagens/foto.jpg"image/x-icon">
+    <title>Portfólio - João Marcelo</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Oxanium&family=Poor+Story&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="no-js">
+
+    <header class="header">
+        <h1 class="logoTitle">João Marcelo Silva Lima</h1>
+        <nav class="menuNav">
+            <ul class="menuPrincipal" id="menuDefault">
+                <li><a aria-label="Link para a sessão Sobre Mim" href="#sobreM">
+                        <p>sobre</p>
+                    </a></li>
+                <li><a aria-label="Link para a sessão Habilidades" href="#habil">
+                        <p>habilidades</p>
+                    </a></li>
+                    </a></li>
+                <li><a aria-label="Link para a sessão Contatos" href="#cont">
+                        <p>contatos</p>
+                    </a></li>
+            </ul>
+
+            <div id="menuHam">
+                <input type="checkbox" name="check-menu" id="checkbox-menu">
+                <label for="checkbox-menu" id="btnHamburguer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul id="menu">
+                    <li><a aria-label="Link para a sessão Sobre Mim" class="link" href="#sobreM">
+                            <p>sobre</p>
+                        </a></li>
+                    <li><a aria-label="Link para a sessão Habilidades" class="link" href="#habil">
+                            <p>habilidades</p>
+                        </a></li>
+                    <li><a aria-label="Link para a sessão Contatos" class="link" href="#cont">
+                            <p>contatos</p>
+                        </a></li>
+                </ul>
+            </div>
+
+            <ul class="menuRedes">
+
+              
+                <li><a aria-label="Link para meu perfil no linkedin" href="https://www.linkedin.com/in/joaomarcelo1980/" target="_blank">
+                        <p><ion-icon name="logo-linkedin"></ion-icon></p>
+                    </a></li>
+                <li><a aria-label="Link para meu perfil no github" href="https://github.com/jcelo80" target="_blank">
+                        <p><ion-icon name="logo-github"></ion-icon></p>
+                    </a></li>
+                <li><a aria-label="Link para meu perfil no twitter" href="https://twitter.com/38Jcelo" target="_blank">
+                        <p><ion-icon name="logo-twitter"></ion-icon></p>
+                    </a></li>
+                <li><a aria-label="Link para meu perfil no whatsapp" href="https://wa.me/5581996754082" target="_blank">
+                        <p><ion-icon name="logo-whatsapp"></ion-icon></p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="boasVindas">
+            <p class="BoasVindasTexto">Olá, meu nome é João Marcelo, sou um Desenvolvedor Front-End. Seja Bem-Vindo!
+            </p>
+            <img src="imagens/foto.jpg" alt="Foto de perfil do João Marcelo">
+        </div>
+
+        <article class="sobreMim" id="sobreM">
+            <div class="aux">
+                <h2 class="subTitle">Sobre Mim</h2>
+                <p class="SobreMimParagrafo">Natural de Recife-PE, estudo desenvolvimento web desde 2023,
+                   estou em uma jornada de constante evolução e aprendizagem.</p>
+                <p class="SobreMimParagrafo">Profissionalmente sempre trabalhei na área administrativa, e vi no desenvolvimento web a chance de mudar o rumo da minha vida. Em busca de novas oportunidades!!</p>
+                <a href="cv_Joao_Marcelo.pdf" download="cv_Joao_Marcelo" class="btnDownload">
+                    <p>Download CV</p>
+                </a>
+            </div>
+        </article>
+
+        <button id="voltarTopo" title="Voltar ao topo"><ion-icon name="arrow-up-circle-outline"></ion-icon></button>
+
+        <article class="habilidades" id="habil">
+
+            <div class="aux">
+                <h2 class="subTitle">Habilidades</h2>
+
+                <div class="habilidadesConteudo">
+
+                    <h3 class="habilidadesSubtitle">Front-End</h3>
+                    <div class="box">
+                        <div class="icone big" id="html5" title="Html5">
+                            <i class="devicon-html5-plain"></i>
+                        </div>
+                        <div class="icone big" id="css3" title="Css3">
+                            <i class="devicon-css3-plain"></i>
+                        </div>
+                        <div class="icone big" id="javascript" title="Javascript">
+                            <i class="devicon-javascript-plain"></i>
+                        </div>
+                    </div>
+
+                    <h3 class="habilidadesSubtitle">Tools</h3>
+                    <div class="box">
+                        <div class="icone big" id="figma" title="Figma">
+                            <i class="devicon-figma-plain"></i>
+                        </div>
+                        <div class="icone big" id="vscode" title="VsCode">
+                            <i class="devicon-vscode-plain"></i>
+                        </div>
+                        <div class="icone big" id="git" title="Git">
+                            <i class="devicon-git-plain"></i>
+                        </div>
+                        <div class="icone big" id="github" title="GitHub">
+                            <i class="devicon-github-original"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="contatos" id="cont">
+            <div class="aux">
+                <h2 class="subTitle">Contatos</h2>
+
+                <p class="subSubTitle">Me encontre nas redes socia!</p>
+
+                    <div class="icone small"><a aria-label="Link para meu perfil no linkedin" href="https://www.linkedin.com/in/joaomarcelo1980/" target="_blank"><ion-icon 
+                               class="social" name="logo-linkedin"></ion-icon></a></div>
+
+                    <div class="icone small"><a aria-label="Link para meu perfil no github" href="https://github.com/jcelo80" target="_blank"><ion-icon
+                                class="social" name="logo-github"></ion-icon></a></div>
+
+                    <div class="icone small"><a aria-label="Link para meu perfil no twitter" href="https://twitter.com/38Jcelo" target="_blank"><ion-icon
+                                class="social" name="logo-twitter"></ion-icon></a></div>
+
+                    <div class="icone small"><a aria-label="Link para meu perfil no whatsapp" href="https://wa.me/5581996754082" target="_blank"><ion-icon
+                                class="social" name="logo-whatsapp"></ion-icon></a></div> 
+
+                <p class="subSubTitle">Ou me envie um e-mail:</p>
+                <a href="mailto:joaomarcelosilvalima@gmail.com" class="icone long" id="email">
+                    <ion-icon name="mail-outline" id="email"></ion-icon>
+                    <p>joaomarcelosilvalima@gmail.com</p>
+                </a>
+            </div>
+        </article>
+
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
